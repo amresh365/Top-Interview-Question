@@ -5,7 +5,7 @@ class Solution {
     int currHighestReach = 0;
 
 	for (int i = 0; i < nums.length - 1; i++) {
-        //Here we calculating Highest reach from the 
+        //Here we calculating Highest reach from the curret position
 		currHighestReach = Math.max(currHighestReach, i + nums[i]);
 
 		if (i == currEnd) {
